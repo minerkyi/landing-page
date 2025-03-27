@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./css/reset.css">
+        <link rel="stylesheet" href="./css/style.css">
+        <title>HODU</title>
+    </head>
+    <body>
+        <header class="header">
+            <h1 class="sr-only">HODU</h1>
+            <img src="./img/logo.svg" alt="HODU">
+            <button id="btn-show-menu" class="show-mobile"><img src="./img/menu.svg" alt="menu"></button>
+            <button class="show-pc">Download</button>
+            <nav class="show-pc">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Support</a></li>
+                </ul>
+            </nav>
+            <aside id="aside-menu" class="show-mobile">
+                <h2 class="sr-only">메뉴</h2>
+                <header>
+                    <h3 class="sr-only">메뉴 닫기</h3>
+                    <button id="btn-close-menu"><img src="./img/arrow-right.svg" alt=""></button>
+                </header>
+                <section>
+                    <h3 class="sr-only">메뉴 리스트</h3>
+                    <nav>
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Support</a></li>
+                        </ul>
+                    </nav>
+                    <button>Download</button>
+                </section>
+            </aside>
+        </header>
+        <main>
+            <header>
+                <h2 class="sr-only">Download</h2>
+                <div>
+                    <p>
+                        Lorem Ipsum is simply<br>
+                        <span>dummy text</span> of the printing and
+                    </p>
+                    <p>
+                        <span>Lorem Ipsum is simply dummy text</span> of the printing and typesetting industry.<br>
+                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown
+                    </p>
+                    <button>Download</button>
+                </div>
+                <img src="./img/box-cat.png" alt="">
+            </header>
+            <section>
+                <h2 class="sr-only">hodu life</h2>
+                <article>
+                    <h3 class="sr-only">hodu info</h3>
+                    <img src="./img/img_4.jpg" alt="침대 위 hodu">
+                    <div>
+                        <p>
+                            Lorem Ipsum is simply dummy text of the printing and dummy text
+                        </p>
+                        <p>
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                        </p>
+                    </div>
+                </article>
+                <article>
+                    <h3 class="sr-only">hodu daily</h3>
+                    <p>
+                        dummy text of the printing and dummy
+                    </p>
+                    <p>
+                        Lorem Ipsum is simply <span>dummy text</span> of the printing and typesetting industry. <br>
+                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown
+                    </p>
+                    <ul>
+                        <li><img src="./img/img_1.jpg" alt="캣타워 위 hodu"></li>
+                        <li><img src="./img/img_2.jpg" alt="콘센트 앞 hodu"></li>
+                        <li><img src="./img/img_3.jpg" alt="응시하는 hodu"></li>
+                    </ul>
+                </article>
+                <div class="learn-more">
+                    <h3 class="sr-only">Learn More</h3>
+                    <p>
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br>
+                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown<br>
+                        Ipsum is simply dummy text of the printing and typesetting industry.
+                    </p>
+                    <button>Learn More</button>
+                </div>
+            </section>
+            <aside class="aside-subscribe">
+                <h2 class="sr-only">구독 신청</h2>
+                <div>
+                    <p>Subscribe to our Blog post</p>
+                    <p>
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br>
+                        Lorem Ipsum has been the industry's standard dummy text
+                    </p>
+                </div>
+                <div>
+                    <input type="text" placeholder="Enter your e-mail address">
+                    <button id="btn-show-dialog">Subscribe</button>
+                </div>
+            </aside>
+            <footer>
+                <a href="#" class="show-pc"><img src="./img/top-btn.svg" alt="move top"></a>
+            </footer>
+        </main>
+        <footer class="footer">
+            <img src="./img/logo.png" alt="HODU">
+            <nav class="nav-sns">
+                <ul>
+                    <li><a href="#"><img src="./img/blog.svg" alt="blog"></a></li>
+                    <li><a href="#"><img src="./img/instagram.svg" alt="instagram"></a></li>
+                    <li><a href="#"><img src="./img/facebook.svg" alt="facebook"></a></li>
+                    <li><a href="#"><img src="./img/youtube.svg" alt="youtube"></a></li>
+                </ul>
+            </nav>
+            <nav class="nav-menu show-mobile">
+                <ul>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Support</a></li>
+                    <li><a href="#">Terms of Use</a></li>
+                </ul>
+            </nav>
+        </footer>
+        <dialog id="dialog-subscribe">
+            <img src="./img/cat-subscribe.png" alt="">
+            <p>Thank you!</p>
+            <p>Lorem Ipsum is simply dummy text of the printing industry.</p>
+            <button id="btn-close">OK! I Love HODU</button>
+        </dialog>
+        <script src="./js/landing.js"></script>
+    </body>
+</html>
