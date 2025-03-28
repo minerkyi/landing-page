@@ -532,7 +532,7 @@ dialog button {
         right: 0;
     }
 
-    #aside-menu header button {
+    #aside-menu > button {
         margin-top: 22px;
         margin-left: 20px;
     }
