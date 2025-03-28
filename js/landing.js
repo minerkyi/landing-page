@@ -8,16 +8,20 @@ const closeMenuBtn = document.getElementById('btn-close-menu');
 
 showDialogBtn.addEventListener('click', () => {
     dialog.showModal();
+    document.body.style.overflow = "hidden";
 });
 
 closeBtn.addEventListener('click', () => {
     dialog.close();
+    document.body.style.overflow = "";
 });
 
 showMenuBtn.addEventListener('click', () => {
     menuAside.style.setProperty('display', 'block');
+    document.body.style.overflow = "hidden";
 });
 
 closeMenuBtn.addEventListener('click', () => {
     menuAside.style.setProperty('display', 'none');
+    document.body.style.overflow = "";
 });
